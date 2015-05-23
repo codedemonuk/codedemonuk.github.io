@@ -96,7 +96,7 @@ clients:
     img: client04.png
 
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+about: "A .Net developer from Bushey, Hertfordshire.  Also serves as a Councillor for Hertsmere Borough Council and a Governor for Bushey Heath Primary School"
 
 # Testimonial content. Shown on Home and About page. 
 testimonial:
