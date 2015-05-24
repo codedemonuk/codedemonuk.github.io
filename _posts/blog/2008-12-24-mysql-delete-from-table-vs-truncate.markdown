@@ -4,6 +4,7 @@ title: "MySql Delete From Table vs Truncate"
 date: 2008-12-24 18:53:00
 author: Pervez Choudhury
 categories: 
+- Blog
 - Development
 - MySql
 img: php_code.png

@@ -4,6 +4,7 @@ title: "NVelocity is dead"
 date: 2009-03-30 21:29:00
 author: Pervez Choudhury
 categories: 
+- Blog
 - Development
 - Rendering Engines
 img: php_code.png
