@@ -21,7 +21,7 @@ The only downside of using it is the verbosity of the component registration.  T
 
 #### Register a WCF Service
 
-Using an extension method, you can register a WCF service very simply and easilys.
+Using an extension method, you can register a WCF service very simply and easily. 
 
 {% highlight csharp %}
 var netTcpBinding = new NetTcpBinding();
