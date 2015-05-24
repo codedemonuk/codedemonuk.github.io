@@ -3,7 +3,7 @@
 # Site settings
 title: ThinkBinary Blog
 description: "The personal web blog of Pervez Choudhury. A software developer from Bushey, UK."
-analytics: #Google analytics code in the format XX-nnnnnnnn-n
+analytics: UA-365801-4
 baseurl: "" #important: start with /
 url: "http://www.thinkbinary.co.uk"
 
