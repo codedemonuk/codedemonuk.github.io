@@ -9,7 +9,6 @@ categories:
 - MySql
 img: php_code.png
 thumb: php_code.png
-comments: true
 ---
 
 Delete from table deletes each row from the one at a time and adds a record into the transaction log so that the operation can be rolled back.  The time taken to delete is also proportional to the number of indexes on the table, and if there are any foreign key constraints (for innodb).
