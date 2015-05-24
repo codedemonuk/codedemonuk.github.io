@@ -32,12 +32,15 @@ social:
     url: http://twitter.com/pervezc
   - title: linkedin
     url: https://uk.linkedin.com/in/pervezc
+  - title: github
+    url: https://github.com/codedemonuk
+  - title: stack-overflow
+    url: http://stackoverflow.com/users/41673/pervez-choudhury
 
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 email: blog@thinkbinary.co.uk
 
-
 ### GENERAL DATA FOR VARIOUS LOCATIONS ###
 
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "A .Net developer from Bushey, Hertfordshire.  Also serves as a Councillor for Hertsmere Borough Council and a Governor for Bushey Heath Primary School"
+about: "A .Net developer from Bushey, Hertfordshire.  Also serves as a Councillor for Hertsmere Borough Council and a Governor for Bushey Heath Primary School.  All views expressed are my own."
