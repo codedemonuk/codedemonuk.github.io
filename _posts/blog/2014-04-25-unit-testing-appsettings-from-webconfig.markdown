@@ -9,7 +9,6 @@ categories:
 - Unit Testing
 img: php_code.png
 thumb: php_code.png
-comments: true
 ---
 
 You can call the set method of ConfigurationManager.AppSettings to set the values required for that particular unit test.

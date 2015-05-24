@@ -9,6 +9,7 @@ categories:
 - Rendering Engines
 img: php_code.png
 thumb: php_code.png
+comments: true
 ---
 
 The Castle Project forked the project and have been maintaining it, and most recently released version 1.1.1 on 10 December 2010.  More details can be found at [the Castle Projects NVelocity site][1].  They have also made a number of improvements to it, details of which can be found [on their NVelocity improvements][2] page.  The project looks like it is now dead and in MonoRail 3, it has been replaced by Castle Blade which is based off Razor.
