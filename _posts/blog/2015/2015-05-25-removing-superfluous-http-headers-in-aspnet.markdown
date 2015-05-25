@@ -10,7 +10,7 @@ thumb: http-protocol.png
 
 When creating a new ASP.Net MVC project, by default you will end up with a number of extra HTTP headers in your responses which can safely be removed.
 
-These headers will advertise which version of Windows you are hosting on, and which versions of the .Net framework and ASP.Net version you are developing with.  As well as being needless bloat over the wire, they are also giving away information to potential hackers about your software which can later be used to try and find vulnerabilities.
+These headers will advertise which version of Windows you are hosting on, and which versions of the .Net framework and ASP.Net version you are developing with.  As well as being needless bloat over the wire, they also give away information to potential hackers about your software.
 
 <!--more-->
 
@@ -21,7 +21,7 @@ The extra HTTP headers are:
     X-Powered-By:ASP.NET
     Server:Microsoft-IIS/8.0
 
-The steps to remove each of the headers is different, but they are all very straighforward to carry out.
+The steps to remove each of the headers are different, but they are all very straighforward to carry out.
 
 #### X-AspNet-Version Header
 
@@ -61,9 +61,9 @@ To remove this header, you need to add some extra configuration into the web.con
 
 #### Server Header
 
-Last, but not least is the Server header.  This effectivly advertises to hackers which version of Windows you are hosted on because IIS server versions are tied to specific releases of the Windows operating system.
+Last, but not least is the Server header.  This header advertises to hackers which version of Windows you are hosted on because IIS server versions are tied to specific releases of the Windows operating system.
 
-There are a number of ways to remove the server header, but they involve installed components onto the web server or changing the Windows registry.  The simplest solution which will work regardless of where your application is hosted is to add the following code to your `global.asax` file.
+There are a number of ways to remove the server header, but they usually involve installing components onto the web server or changing the Windows registry.  The simplest solution which will work regardless of which server your is hosted on is to add the following code to your `global.asax` file.
 
 {% highlight csharp %}
 protected void Application_BeginRequest(object sender, EventArgs e)
