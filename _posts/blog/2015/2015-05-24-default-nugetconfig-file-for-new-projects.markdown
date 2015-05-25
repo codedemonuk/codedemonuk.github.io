@@ -7,8 +7,8 @@ categories:
 - Blog
 - Development
 - NuGet
-img: php_code.png
-thumb: php_code.png
+img: nuget-stickers.jpg
+thumb: nuget.png
 comments: true
 ---
 
