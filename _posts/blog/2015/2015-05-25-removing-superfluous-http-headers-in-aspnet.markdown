@@ -30,7 +30,7 @@ This header advertises which version if the .Net framework you are hosting on.  
 {% highlight xml %}
 <configuration>
   <system.web>
-   <httpRuntime enableVersionHeader="false" />
+    <httpRuntime enableVersionHeader="false" />
   </system.web>
 </configuration>
 {% endhighlight %}
