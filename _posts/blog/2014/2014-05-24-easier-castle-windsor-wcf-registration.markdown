@@ -9,7 +9,7 @@ categories:
 - Castle Windsor
 - WCF
 img:
-thumb: php_code.png
+thumb: windsor-logo.png
 comments: true
 ---
 
