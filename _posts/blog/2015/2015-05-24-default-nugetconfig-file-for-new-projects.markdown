@@ -3,7 +3,6 @@ title: "Default nuget.config file for new projects"
 date: 2015-05-24 14:48:00
 categories: 
 - Blog
-- Development
 - NuGet
 img: nuget-stickers.jpg
 thumb: nuget.png

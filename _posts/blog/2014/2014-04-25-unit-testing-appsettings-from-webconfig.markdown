@@ -4,7 +4,6 @@ title: "Unit testing appSettings from web.config"
 date: 2010-12-22 16:54:46
 categories: 
 - Blog
-- Development
 - Unit Testing
 img: php_code.png
 thumb: php_code.png

@@ -3,7 +3,6 @@ title: "NVelocity is dead"
 date: 2009-03-30 21:29:00
 categories: 
 - Blog
-- Development
 - Rendering Engines
 img: php_code.png
 thumb: php_code.png
