@@ -1,15 +1,12 @@
 ---
-layout: post
 title: "Default nuget.config file for new projects"
 date: 2015-05-24 14:48:00
-author: Pervez Choudhury
 categories: 
 - Blog
 - Development
 - NuGet
 img: nuget-stickers.jpg
 thumb: nuget.png
-comments: true
 ---
 
 When starting a new .Net project, I like to place a nuget.config in the solution root folder with a number of default settings in place.  This is to ensure a number of good behaviours for NuGet.

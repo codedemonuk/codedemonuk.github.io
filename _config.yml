@@ -44,3 +44,12 @@ email: blog@thinkbinary.co.uk
 
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
 about: "A .Net developer from Bushey, Hertfordshire.  Also serves as a Councillor for Hertsmere Borough Council and a Governor for Bushey Heath Primary School.  All views expressed are my own."
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Pervez Choudhury"
+      comments: true

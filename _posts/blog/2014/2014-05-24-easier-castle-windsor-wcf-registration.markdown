@@ -1,16 +1,12 @@
 ---
-layout: post
 title: "Easier Castle Windsor WCF Registration"
 date: 2014-05-30 14:48:00
-author: Pervez Choudhury
 categories: 
 - Blog
 - Development
 - Castle Windsor
 - WCF
-img:
 thumb: windsor-logo.png
-comments: true
 ---
 
 Castle Windsor has a great add on called the [WCF Integration Facility](https://www.nuget.org/packages/Castle.WcfIntegrationFacility/) which allows you to get all of the benefits of DI/IoC when working with WCF services.

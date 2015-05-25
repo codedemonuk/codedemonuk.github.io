@@ -2,14 +2,12 @@
 layout: post
 title: "Unit testing appSettings from web.config"
 date: 2010-12-22 16:54:46
-author: Pervez Choudhury
 categories: 
 - Blog
 - Development
 - Unit Testing
 img: php_code.png
 thumb: php_code.png
-comments: true
 ---
 
 You can call the set method of ConfigurationManager.AppSettings to set the values required for that particular unit test.
@@ -23,6 +21,4 @@ public void SetUp()
 }
 {% endhighlight %}
 
-When the unit test runs it will then use these values to run the code
-
-[hampden]: https://github.com/jekyll/jekyll
+When the unit test runs it will then use these values to run the code.
