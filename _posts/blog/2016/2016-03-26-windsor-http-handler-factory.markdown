@@ -11,7 +11,7 @@ When writing a simple HTTP handler in .Net, the framework provides support for
 replacing the default HTTP Handler Factory with your own factory which provides
 support for dependency injection.
 
-<!-- more -->
+<!--more-->
 
 The framework exposes an interface called `IHttpHandlerFactory` which you will
 need to implement with the code for your custom factory.
