@@ -31,7 +31,7 @@ functionality in.
 MargieBot emits a `ConnectionStatusChanged` event when the bot connects or
 disconnects from Slack.  it also exposes a public property called `IsConnected`.
 
-We can write up an event handler to the `ConnectionStatusChanged` event like so:
+We can wire up an event handler to the `ConnectionStatusChanged` event like so:
 
 {% highlight csharp %}
 
