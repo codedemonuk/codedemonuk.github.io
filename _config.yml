@@ -1,7 +1,7 @@
 ### GENERAL SETTINGS ###
 
 # Site settings
-title: ThinkBinary Blog
+title: ThinkBinary
 description: "The personal web blog of Pervez Choudhury. A software developer from Bushey, UK."
 analytics: UA-365801-4
 baseurl: "" #important: start with /
