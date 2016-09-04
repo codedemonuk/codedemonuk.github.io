@@ -45,7 +45,7 @@ A list of essentials tools when setting up a new machine for software developmen
 * [Go](https://golang.org/)  
   `choco install golang`
 * [.NET Core](https://www.microsoft.com/net/core)
-* [.Net Framework 4.6.2](https://www.microsoft.com/net/download)
+* [.Net Framework 4.6.2](https://www.microsoft.com/net/download)  
   `choco install dotnet4.6.2`
 
 ## .NET development tools
@@ -89,6 +89,7 @@ A list of essentials tools when setting up a new machine for software developmen
   `choco install git`
 * Git Credential Manager for Windows  
   `choco install git-credential-manager-for-windows`
+
 ## Merge
 
 * [KDiff3](http://kdiff3.sourceforge.net/)  
@@ -107,7 +108,7 @@ A list of essentials tools when setting up a new machine for software developmen
   `choco install linqpad`
 * [Redis for Windows](https://github.com/MSOpenTech/redis)  
   `choco install redis-64`
-* [SQL Server Management Studio](https://msdn.microsoft.com/en-us/library/mt238290.aspx)
+* [SQL Server Management Studio](https://msdn.microsoft.com/en-us/library/mt238290.aspx)  
   `choco install mssqlservermanagementstudio2014express`
 * [Redis Desktop Manager](https://redisdesktop.com/)    
   A fast open source Redis database management application.    
