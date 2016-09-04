@@ -10,6 +10,8 @@ thumb: php_code.png
 
 A list of essentials tools when setting up a new machine for software development.
 
+<!--more-->
+
 ## Terminals
 
 * [ConEmu](https://conemu.github.io/en/)  
