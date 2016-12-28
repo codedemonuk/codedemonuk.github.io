@@ -26,7 +26,7 @@ It also avoids the hassle of importing the Psake module and calling
 	:: Download NuGet
 	if not exist ".\build\tools" mkdir ".\build\tools"
 	if not exist ".\build\tools\nuget" mkdir ".\build\tools\nuget"
-	if not exist ".\build\tools\nuget\nuget.exe" powershell -Command "Invoke-WebRequest https://www.nuget.org/nuget.exe -OutFile .\build\tools\nuget\nuget.exe"
+	if not exist ".\build\tools\nuget\nuget.exe" powershell -Command "Invoke-WebRequest https://dist.nuget.org/win-x86-commandline/latest/nuget.exe -OutFile .\build\tools\nuget\nuget.exe"
 
 	:: Download Psake
 	set nuget=.\build\tools\nuget\nuget.exe
