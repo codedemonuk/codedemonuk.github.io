@@ -32,7 +32,7 @@ It also avoids the hassle of importing the Psake module and calling
 	set nuget=.\build\tools\nuget\nuget.exe
 	set EnableNuGetPackageRestore=true
 
-	%nuget% install psake -ExcludeVersion -NonInteractive -OutputDirectory ".\build\tools" -Verbosity quiet
+	if not exist ".\build\tools\psake\tools\psake.cmd" %nuget% install psake -ExcludeVersion -NonInteractive -OutputDirectory ".\build\tools" -Verbosity quiet
 
 	call .\build\tools\psake\tools\psake.cmd .\build\build.ps1 %*
 
