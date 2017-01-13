@@ -1,12 +1,8 @@
 ---
 title: "Removing superfluous HTTP headers in ASP.Net"
 date: 2015-05-25 15:00:00
-categories: 
-- Blog
+categories:
 - Asp.net
-img: aspnet-headers.png
-thumb: http-protocol.png
-layout: post
 ---
 
 When creating a new ASP.Net MVC project, by default you will end up with a number of extra HTTP headers in your responses which can safely be removed.

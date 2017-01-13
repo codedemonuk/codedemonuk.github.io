@@ -2,11 +2,8 @@
 title: "Essential tools when setting up a new development environment"
 date: 2016-09-04 18:50:00
 categories:
-- Blog
 - Tools
 - Development
-thumb: php_code.png
-layout: post
 ---
 
 A list of essentials tools when setting up a new machine for software development.

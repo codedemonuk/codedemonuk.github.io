@@ -2,10 +2,7 @@
 title: "Castle Windsor ASP.Net HTTP Handler Factory"
 date: 2016-03-26 15:30:00
 categories:
-- Blog
 - Castle Windsor
-thumb: windsor-logo.png
-layout: post
 ---
 
 When writing a simple HTTP handler in .Net, the framework provides support for

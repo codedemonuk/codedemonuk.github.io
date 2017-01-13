@@ -2,12 +2,8 @@
 title: "Bootstrapping Psake for your windows builds"
 date: 2016-06-05 15:05:00
 categories:
-- Blog
 - Psake
 - Build
-img:
-thumb: php_code.png
-layout: post
 ---
 
 Psake is a great build system for automating your .Net builds on Windows.  To

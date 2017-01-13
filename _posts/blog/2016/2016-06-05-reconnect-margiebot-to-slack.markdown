@@ -2,11 +2,8 @@
 title: "Auto reconnecting Margiebot to Slack"
 date: 2016-06-05 12:30:00
 categories:
-- Blog
 - Slack
 - MargieBot
-thumb: slack.png
-layout: post
 ---
 
 [MargieBot][1] is a simple to use .Net framework for making your own bots for
