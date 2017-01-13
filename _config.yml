@@ -2,7 +2,7 @@
 
 paginate: 10 # pagination based on number of posts
 paginate_path: "page:num"
-exclude: ["README.md"] # files to exclude
+exclude: ["README.md", "Gemfile", "Gemfile.lock"] # files to exclude
 highlighter: pygments
 markdown: kramdown
 disqus: thinkbinaryblog
@@ -29,8 +29,7 @@ author:
 rss_path: feed.xml
 categories_path: categories.html
 tags_path: tags.html
-
-
+permalink: /:year/:month/:day/:title
 
 # set it as url of an image
 # sidebar_background_image: /path/to/img.jpg
