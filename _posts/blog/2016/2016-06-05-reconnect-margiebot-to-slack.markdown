@@ -6,6 +6,7 @@ categories:
 - Slack
 - MargieBot
 thumb: slack.png
+layout: post
 ---
 
 [MargieBot][1] is a simple to use .Net framework for making your own bots for

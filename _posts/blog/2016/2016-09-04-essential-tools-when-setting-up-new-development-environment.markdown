@@ -6,6 +6,7 @@ categories:
 - Tools
 - Development
 thumb: php_code.png
+layout: post
 ---
 
 A list of essentials tools when setting up a new machine for software development.

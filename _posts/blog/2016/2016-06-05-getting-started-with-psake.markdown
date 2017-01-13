@@ -7,6 +7,7 @@ categories:
 - Build
 img:
 thumb: php_code.png
+layout: post
 ---
 
 Psake is a great build system for automating your .Net builds on Windows.  To

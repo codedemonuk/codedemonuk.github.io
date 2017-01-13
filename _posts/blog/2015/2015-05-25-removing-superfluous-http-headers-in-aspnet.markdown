@@ -6,6 +6,7 @@ categories:
 - Asp.net
 img: aspnet-headers.png
 thumb: http-protocol.png
+layout: post
 ---
 
 When creating a new ASP.Net MVC project, by default you will end up with a number of extra HTTP headers in your responses which can safely be removed.

@@ -5,6 +5,7 @@ categories:
 - Blog
 - Castle Windsor
 thumb: windsor-logo.png
+layout: post
 ---
 
 When writing a simple HTTP handler in .Net, the framework provides support for

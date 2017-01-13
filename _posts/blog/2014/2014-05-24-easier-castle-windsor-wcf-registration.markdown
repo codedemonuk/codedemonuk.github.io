@@ -6,6 +6,7 @@ categories:
 - Castle Windsor
 - WCF
 thumb: windsor-logo.png
+layout: post
 ---
 
 Castle Windsor has a great add on called the [WCF Integration Facility](https://www.nuget.org/packages/Castle.WcfIntegrationFacility/) which allows you to get all of the benefits of DI/IoC when working with WCF services.

@@ -1,5 +1,6 @@
 ---
 title: "NVelocity is dead"
+layout: post
 date: 2009-03-30 21:29:00
 categories: 
 - Blog
