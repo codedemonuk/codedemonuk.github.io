@@ -16,21 +16,4 @@ It also avoids the hassle of importing the Psake module and calling
 
 <!--more-->
 
-{% highlight batch %}
-
-	@echo off
-
-	:: Download NuGet
-	if not exist ".\build\tools" mkdir ".\build\tools"
-	if not exist ".\build\tools\nuget" mkdir ".\build\tools\nuget"
-	if not exist ".\build\tools\nuget\nuget.exe" powershell -Command "Invoke-WebRequest https://dist.nuget.org/win-x86-commandline/latest/nuget.exe -OutFile .\build\tools\nuget\nuget.exe"
-
-	:: Download Psake
-	set nuget=.\build\tools\nuget\nuget.exe
-	set EnableNuGetPackageRestore=true
-
-	if not exist ".\build\tools\psake\tools\psake.cmd" %nuget% install psake -ExcludeVersion -NonInteractive -OutputDirectory ".\build\tools" -Verbosity quiet
-
-	call .\build\tools\psake\tools\psake.cmd .\build\build.ps1 %*
-
-{% endhighlight %}
+{% gist codedemonuk/db3c04190e24e9870898db4f4217c763 %}
