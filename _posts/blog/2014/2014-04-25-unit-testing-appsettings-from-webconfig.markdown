@@ -7,13 +7,6 @@ categories:
 
 You can call the set method of ConfigurationManager.AppSettings to set the values required for that particular unit test.
 
-{% highlight csharp %}
-[SetUp]
-public void SetUp()
-{
-  ConfigurationManager.AppSettings.Set("SettingKey" , "SettingValue");
-  // rest of unit test code follows
-}
-{% endhighlight %}
+{% gist codedemonuk/dad45186f2434fa8b6adf6abaa53b4d1 %}
 
 When the unit test runs it will then use these values to run the code.
