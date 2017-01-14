@@ -19,32 +19,7 @@ need to implement with the code for your custom factory.
 Here's one I prepared earlier that will return HTTP handlers based on the name
 the classed were registered with in Castle Windsor.
 
-{% highlight csharp %}
-
-	public class CastleWindsorHttpHandlerFactory : IHttpHandlerFactory
-	{
-		private static IWindsorContainer _container;
-
-		public CastleWindsorHttpHandlerFactory()
-		{
-			if (_container == null)
-			{
-				_container = ((IContainerAccessor)HttpContext.Current.ApplicationInstance).Container;
-			}
-		}
-
-		public IHttpHandler GetHandler(HttpContext context, string requestType, string url, string pathTranslated)
-		{
-			return _container.Resolve<IHttpHandler>(url.ToUpperInvariant());
-		}
-
-		public void ReleaseHandler(IHttpHandler handler)
-		{
-			_container.Release(handler);
-		}
-	}
-
-{% endhighlight %}
+{% gist codedemonuk/46cfbaa079e10ed14d69c684eab10c2e %}
 
 It makes the assumption that your `HttpApplication` class in `Global.asax.cs`
 exposes the container, via the IContainerAccessor interface.
