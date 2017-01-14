@@ -92,6 +92,10 @@ article .share .gplus:hover {
     }
 }
 
+.page-header h1 {
+	padding-left: 5%;
+}
+
 article{
 	margin-bottom: 40px;
 }
