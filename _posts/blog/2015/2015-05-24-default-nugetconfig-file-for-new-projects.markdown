@@ -13,30 +13,4 @@ When starting a new .Net project, I like to place a nuget.config in the solution
 * Add the public NuGet repository and any organisational NuGet repositories
 * Ensure all NuGet packages are saved in a common `packages` folder
 
-{% highlight xml %}
-
-<?xml version="1.0" encoding="utf-8"?>
-<configuration>
-
-    <config>
-        <add key="repositorypath" value=".\Packages" />
-    </config>
-
-    <packageRestore>
-        <add key="enabled" value="True" />
-        <add key="automatic" value="True" />
-    </packageRestore>
-
-    <packageSources>
-        <clear /> <!-- ensure only the sources defined below are used -->
-        <add key="Public Nuget Server" value="https://nuget.org/api/v2/"/>
-        <!-- Add any other internal corporate package sources here -->
-    </packageSources>
-
-    <activePackageSource>
-        <add key="All" value="(Aggregate source)" />
-    </activePackageSource>
-
-</configuration>
-
-{% endhighlight %}
+{% gist codedemonuk/74b4e55276c8de4f63f0 %}
