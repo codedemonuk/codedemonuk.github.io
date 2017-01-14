@@ -34,7 +34,7 @@ permalink: /:year/:month/:day/:title
 # set it as url of an image
 # sidebar_background_image: /path/to/img.jpg
 
-BASE_PATH:
+BASE_PATH: https://www.thinkbinary.co.uk
 
 gems:
   - jekyll-paginate
