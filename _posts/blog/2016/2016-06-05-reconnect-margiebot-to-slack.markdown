@@ -41,35 +41,7 @@ We can wire up an event handler to the `ConnectionStatusChanged` event like so:
 Our event handler can then try to establish a connection to Slack and retry
 until it is able to do so.
 
-{% highlight csharp %}
-
-	private readonly string _slackKey = "<Your API Token>";
-	private readonly ILog _log = LogManager.GetCurrentClassLogger();
-
-	private void ConnectToSlackIfDisconnected(bool isConnected)
-	{
-		if (!isConnected)
-		{
-			Task.Factory.StartNew(async () =>
-			{
-				while (!_bot.IsConnected)
-				{
-					try
-					{
-						_log.Info("Trying to connect to Slack...");
-						await _bot.Connect(_slackKey);
-					}
-					catch (Exception exception)
-					{
-						_log.Error(exception.InnerException?.Message ?? exception.Message);
-						Thread.Sleep(TimeSpan.FromSeconds(10));
-					}
-				}
-			});
-		}
-	}
-
-{% endhighlight %}
+{% gist codedemonuk/2bc8d60fc2ea370a75ccb4abbba5578e %}
 
 We can also re-ue this code when making the initial connection to Slack. Instead
  of calling
