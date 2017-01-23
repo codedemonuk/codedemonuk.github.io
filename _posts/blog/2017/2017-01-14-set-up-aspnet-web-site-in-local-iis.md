@@ -1,12 +1,12 @@
 ---
-title: "Set up an ASP.Net web site in your local IIS"
+title: "Set up a Development ASP.Net web site in your local IIS"
 date: 2017-01-14 15:50
 categories: 
 - IIS
 - ASP.Net
 ---
 
-When working on an ASP.net application, it can be very useful to be able to
+When developing an ASP.net application, it can be very useful to be able to
 quickly set up the project in your local IIS server so you can build it and
 start using it.
 
