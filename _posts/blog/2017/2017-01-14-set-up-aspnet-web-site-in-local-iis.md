@@ -15,6 +15,8 @@ repositories which will quickly set up IIS for your project.
 
 <!--more-->
 
+These scripts depend upon the [Carbon PowerShell module][1] being available locally.
+
 ## Install Website
 
 This script will set up IIS, application pools, binding and local host file
@@ -27,3 +29,5 @@ entries for your website.
 This script will undo all of the good work carried out by the install script.
 
 {% gist codedemonuk/29a2085855c82ffacb8dfd9dbe68e2b0 %}
+
+[1]: http://get-carbon.org/
