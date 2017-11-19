@@ -6,7 +6,7 @@ categories:
 - Regular Expressions
 ---
 
-Local Government webcasting is dominated by Public-i.  
+Local Government webcasting is dominated by Public-i.
 According to their website, 85% of local government bodies that stream their meetings use Public-i to do so.
 They provide a good service, but one of the limitations with them is that they don't keep the videos online for too long.
 
