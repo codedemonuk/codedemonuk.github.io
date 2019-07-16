@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/pervez
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.thinkbinary.co.uk
+  * I am pervez (https://keybase.io/pervez) on keybase.
+  * I have a public key ASApQtAJYCGEyiDqsXwU1sih0r5ZzxmE0xa7tazeXTM3gwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01202942d009602184ca20eab17c14d6c8a1d2be59cf1984d316bbb5acde5d3337830a",
+      "host": "keybase.io",
+      "kid": "01202942d009602184ca20eab17c14d6c8a1d2be59cf1984d316bbb5acde5d3337830a",
+      "uid": "dd395e664fe93eb8457938601c67bf19",
+      "username": "pervez"
+    },
+    "merkle_root": {
+      "ctime": 1563294286,
+      "hash": "0e064e4b6e3dcc588b2ee015e9cd14026e37b197d4497df3e755968d80f70923cccc59ddaf6e916bc3c5b2a91f9975d67e9fd80c71bf090f01b38cff5d5a7e4f",
+      "hash_meta": "f71483eda5152d3068c9f77af1fcae1a0fd61644ef916182068a233f785860e4",
+      "seqno": 5775638
+    },
+    "service": {
+      "entropy": "b06iftIGRCbb9oHrTiu9s1Uf",
+      "hostname": "www.thinkbinary.co.uk",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.2.0"
+  },
+  "ctime": 1563294306,
+  "expire_in": 504576000,
+  "prev": "e9bfff6f90181bc5f26ad53bf9daf1c13acb9f3fe5b1f2234c7c8d478945383c",
+  "seqno": 10,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgKULQCWAhhMog6rF8FNbIodK+Wc8ZhNMWu7Ws3l0zN4MKp3BheWxvYWTESpcCCsQg6b//b5AYG8XyatU7+drxwTrLnz/lsfIjTHyNR4lFODzEIDaeO5p2JR/VDwY/FXGEtZnUuTeMQ1I+9MFc3BEs5AbGAgHCo3NpZ8RAgckH6mFRsOA1x+vqWO/tFuQm5eZjksrB0lR31cCDzA+uJkZPb+XFAUsrp2IXpiOZereKIuOS9L39excXShiYAqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIHxxYxNxLssiHDf3v5Wr6cQ8pjc0h6pgatGlyxFBX3jjo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/pervez
+
+==================================================================
