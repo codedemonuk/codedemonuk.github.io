@@ -16,7 +16,9 @@ When setting these up, some people can go overboard and make things secure that 
 Normally, this is not a problem, but it is a little more inconvenient than it needs to be.
 
 The AWS Management Console does not offer a easy way to change the type of a parameter store value once it has been created.
-To do this as a one off operation, it it possible to use powershell to help you out.
+To do this as a one off operation, it it possible to use powershell to help you out and very quickly replace the existing parameter with a new one with the same name, but a different type.
+
+This approach is not perfect and there will be a small window of time where the parameter does not exist at all.
 
 ## Install AWS PowerShell tools
 
