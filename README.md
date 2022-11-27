@@ -1,5 +1,5 @@
 
-<dic align="center">
+<div align="center">
 
 # Personal website for Pervez Choudhury
 
