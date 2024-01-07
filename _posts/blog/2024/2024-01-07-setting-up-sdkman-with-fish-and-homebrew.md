@@ -69,6 +69,12 @@ set -g __sdkman_custom_dir /opt/homebrew/opt/sdkman-cli/libexec
 
 You should now have SDKMAN working and set up in the Fish shell.
 
+Fire up a new shell so that you have a fresh instance of Fish with all of it's plug-ins set up, and use the following command to see if SDKMAN is now working
+
+```bash
+sdk help
+```
+
 [1]: https://brew.sh/
 [2]: https://fishshell.com/
 [3]: https://github.com/sdkman/homebrew-tap
